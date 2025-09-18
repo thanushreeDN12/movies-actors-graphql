@@ -1,0 +1,25 @@
+/* App.css */
+
+/* Set background and text color */
+body {
+  background-color: #12121c; /* Dark background */
+  color: #f0f0f0;            /* Light text */
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main container */
+.App {
+  padding: 30px 20px 100px 20px; /* Space at bottom for AddMovie */
+}
+
+/* Watch List headline */
+.App h1 {
+  text-align: center;
+  color: #00bcd4; /* Cyan accent color */
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(0, 188, 212, 0.3);
+}
